@@ -1,0 +1,155 @@
+body {
+  text-align: center;
+  background-color: #F6F4F4;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #1d1a1a;
+  font-family: 'Staatliches', cursive;
+  text-shadow: 3px 0 #FF7517;
+
+}
+
+footer {
+  color: #000000;
+  font-family: 'Sacramento', cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin: 4rem auto 0rem;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+  background-size: 9rem;
+  background-position: 8rem 7rem ;
+  vertical-align: bottom;
+}
+
+.a {
+  background-image: url("images/tom2.png");
+  background-size: 9rem;
+  background-position: 8rem 7rem ;
+}
+
+.s {
+  background-image: url("images/tom3.png");
+  background-size: 6.5rem;
+  background-position: 7rem 6rem ;
+  vertical-align: top;
+} 
+
+.d {
+  background-image: url("images/tom4.png");
+  background-size: 6.5rem;
+  background-position: 7rem 6rem;
+  vertical-align: top;
+}
+
+.j {
+  background-image: url("images/crash.png");
+  background-size: 9rem;
+  background-position: 8.3rem 7rem ;
+}
+
+.k {
+  background-image: url("images/snare.png");
+  background-size: 9rem;
+  background-position: 8.3rem 7rem ;
+}
+
+.l {
+  background-image: url("images/kick.png");
+  background-size: 7rem;
+  background-position: 7.5rem 6rem ;
+  
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  border-width: 1;
+  border: 10px double #FF7517;
+  border-radius: 40px 40px 40px 40px;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px double #FF7517;
+  border-radius: 30px 30px 30px 30px;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2;
+  font-weight: 900;
+  color: #000000;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  padding-top: 4rem;
+}
+
+.middrum{
+  margin-top: 5rem;
+}
+
+#title {
+  padding-top: 4rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+  
+  .w, .a{
+    background-size: 17rem;
+    background-position: 14rem 13rem;
+    
+  }
+
+  .s, .d{
+    background-size: 12rem;
+    background-position: 12rem 10.3rem;
+  }
+
+  .j, .k{
+    background-size: 17rem;
+    background-position: 14.3rem 13rem;
+  }
+
+  .l{
+      background-size: 12rem;
+      background-position: 12rem 10rem;
+  }
+
+  h1{
+    font-size: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .drum{
+    width: 200px;
+    height: 200px;
+    padding-top: 7rem;
+    font-size: 2rem;
+  }
+
+  footer {
+    font-size: 50px;
+    margin-top: 20rem;
+  }
+
+}
